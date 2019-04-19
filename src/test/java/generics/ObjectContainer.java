@@ -1,4 +1,4 @@
-package Paradigm;
+package generics;
 
 /**
  * 开发一个能够存储和检索 Object 类型本身的容器

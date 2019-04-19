@@ -1,4 +1,4 @@
-package Paradigm;
+package generics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +46,7 @@ public class Test {
         List<GenericContainer> genericlist = new ArrayList<>();
         for (int i = 0; i <=10; i++) {
             GenericContainer<String> genericContainer1 = new GenericContainer<>();
-            genericContainer1.setObj("generic" + i);
+            genericContainer1.setObj("generics" + i);
             genericlist.add(genericContainer1);
 
         }

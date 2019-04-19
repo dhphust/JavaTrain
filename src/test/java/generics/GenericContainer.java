@@ -1,4 +1,4 @@
-package Paradigm;
+package generics;
 
 public class GenericContainer<T> {
     private T obj;

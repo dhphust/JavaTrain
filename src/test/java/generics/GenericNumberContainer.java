@@ -1,4 +1,4 @@
-package Paradigm;
+package generics;
 
 import java.util.List;
 

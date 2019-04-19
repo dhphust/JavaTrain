@@ -1,4 +1,4 @@
-package Paradigm;
+package generics;
 
 /**
  * 多种范型类型
