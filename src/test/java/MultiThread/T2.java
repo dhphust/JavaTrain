@@ -1,4 +1,4 @@
-package ConcurrentPro;
+package MultiThread;
 
 /**
  * synchronized方法执行时，非synchronized方法也可以执行

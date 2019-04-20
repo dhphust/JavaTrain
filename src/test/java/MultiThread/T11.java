@@ -1,4 +1,4 @@
-package ConcurrentPro;
+package MultiThread;
 
 /**
  * 不要以字符串常量作为锁定对象

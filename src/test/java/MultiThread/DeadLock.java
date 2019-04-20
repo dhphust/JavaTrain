@@ -1,4 +1,4 @@
-package ConcurrentPro;
+package MultiThread;
 
 /**
  * 模拟死锁

@@ -1,4 +1,4 @@
-package ConcurrentPro;
+package MultiThread;
 
 /**
  * synchronized保证原子性
