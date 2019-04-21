@@ -1,9 +1,5 @@
-## 多线程练习
 
->afasf
+java高并发编程：
 
-* [**this is a test **](README.md)
+synchronizer/同步容器/threadPool、exector
 
-```
-int count = 0;
-```
