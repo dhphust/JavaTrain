@@ -72,6 +72,8 @@ public class T15 {
                     e.printStackTrace();
                 }
             }
+
+            System.out.println("thread1 end");
         },"thread1").start();
 
     }
