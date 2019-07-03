@@ -11,10 +11,10 @@ public class Singleton1 {
 
     //内部类
     private static class Inner{
-        private static Singleton singleton = new Singleton();
+        private static Singleton1 singleton = new Singleton1();
     }
 
-    private static Singleton getInstance(){
+    private static Singleton1 getInstance(){
         return Inner.singleton;
     }
 
@@ -22,7 +22,7 @@ public class Singleton1 {
         Thread[] threads = new Thread[100];
         for (int i = 0; i < threads.length; i++) {
             threads[i] = new Thread(()->{
-                Singleton.getInstance();
+                Singleton1.getInstance();
             });
         }
         for (Thread thread : threads) {
