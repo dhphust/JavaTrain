@@ -1,14 +1,10 @@
 package MultiThread;
 
 /**
- * 模拟死锁
- * 假设两个线程t1,t2，两个对象a1,a2
- * t1线程执行需要依次锁定a1，a2
- * t2线程执行需要依次锁定a2，a1
- * 假设t1当前已经锁定a1，t2当前已经锁定a2对象
- * 此时t1、t2所需的另一个对象a2、a1分别被对方锁住，导致死锁
+ * 解决死锁
+ * 避免锁嵌套
  */
-public class DeadLock implements Runnable {
+public class DeadLockResolve implements Runnable {
 
     // flag=1，占有对象o1，等待对象o2
     // flag=0，占有对象o2，等待对象o1
@@ -31,9 +27,10 @@ public class DeadLock implements Runnable {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                synchronized (o2){
-                    System.out.println(flag + ":持有->" + o2.hashCode());
-                }
+
+            }
+            synchronized (o2){
+                System.out.println(flag + ":持有->" + o2.hashCode());
             }
         }
         // deadLock1占用资源o2，准备获取资源o1
@@ -45,17 +42,17 @@ public class DeadLock implements Runnable {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                synchronized (o1){
-                    System.out.println(flag + ":持有->" + o1.hashCode());
-                }
+            }
+            synchronized (o1){
+                System.out.println(flag + ":持有->" + o1.hashCode());
             }
         }
 
     }
 
     public static void main(String[] args) {
-        DeadLock deadLock1 = new DeadLock();
-        DeadLock deadLock2 = new DeadLock();
+        DeadLockResolve deadLock1 = new DeadLockResolve();
+        DeadLockResolve deadLock2 = new DeadLockResolve();
         deadLock1.flag = 0;
         deadLock2.flag = 1;
 
