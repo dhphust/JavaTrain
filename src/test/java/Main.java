@@ -1,6 +1,8 @@
 import java.util.*;
 import java.util.concurrent.ThreadPoolExecutor;
 
+import static java.util.Arrays.sort;
+
 //public class Main {
 //    public static void main(String[] args) {
 //        Scanner input = new Scanner(System.in);
@@ -99,37 +101,38 @@ import java.util.concurrent.ThreadPoolExecutor;
 //    }
 //}
 
-//思路：
-//首先将作业集合的处理时间排序T，
-//然后根据处理器m的个数，将排序后集合中的前m个元素放入容器中
-//取出容器中最小的元素K，容器中其他元素均减去K值
-//将剩余集合中最小值元素插入容器中；
-//循环以上流程，直到排序集合中最后一个元素插入容器中
-//此时最短作业时间=每次的最小K值+排序集合中最后一个元素（即处理时间最长的元素）
-
-
 
 public class Main {
     public static void main(String[] args) {
-        Map<Integer,Integer> map = new HashMap();
-        map.put(20,123);
-        map.put(20,23);//error
-        map.put(45,123);
-        System.out.println(map.get(20));//存在问题，只输出最新的value，所以map的key不允许重复
-        for (Integer integer : map.keySet()) {
-            System.out.println(integer);
-        }
-        HashSet<Integer> set = new HashSet();
-        set.add(23);
-        set.add(23);//error
-        set.add(45);
-        for (Integer integer : set) {
-            System.out.println(integer);
-        }
-
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

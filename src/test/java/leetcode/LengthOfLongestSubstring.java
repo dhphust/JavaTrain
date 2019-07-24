@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class LengthOfLongestSubstring {
         public static int lengthOfLongestSubstring(String s) {
-        if (s == null)
+        if (s == null || s.length() < 1)
             return 0;
 //        char[] chars = s.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
@@ -43,8 +43,8 @@ public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
 
-        String test = " ";
-        System.out.println(test.equals(null));
+        String test = "abba";
+        System.out.println(test.length());
         System.out.println(lengthOfLongestSubstring(test));
     }
 }
