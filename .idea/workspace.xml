@@ -2,109 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf141851-bb0a-4a07-9708-5bb63493b6e9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/MaxArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiThread/TerminateSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiThread/TerminateSleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/html/removetag/RemoveTag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/html/removetag/metaViewerReplace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/Person1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ReentrantLock1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ReentrantLock2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ReentrantLock3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ReentrantLock4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ReentrantLock5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/Singleton1$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_ArrayBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_ConcurrentMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_ConcurrentQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_CopyOnWriteList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_DelayQueue$MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_DelayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_LinkedBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T19_SynchronziedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/T9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/TT5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ThreadLocal1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/ThreadLocal2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/TicketSeller1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/TicketSeller2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/TicketSeller3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThread/TicketSeller4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/BucketSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/FindNumsAppearOnce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generalAlgorithm/QucikSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/Comparable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/GenericContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/GenericNumberContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/LambdaExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/MultiGenericContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/ObjectContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/T2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/T3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/Bag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/CoffeeBag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/CoffeeCup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/CoffeeSaleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/CoffeeType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/Cup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/Dark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/DoughnutRoast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/FrenchRoast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/JavaHouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/JavaHouseVisit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/Light.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/generics/coffehouse/Medium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/javaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Duplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Eight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/FirstNotRepeatingChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Five.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Four.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/GetUglyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Second.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Six.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Third.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/Thirty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/TwentyNine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/offer66/eleven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reflection/Service1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reflection/Service2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reflection/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/Reverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,108 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReentrantLock2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/ReentrantLock2.java">
+      <file leaf-file-name="Convert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/Convert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/Reverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxArea.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/MaxArea.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <file leaf-file-name="ThreeSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReentrantReadWriteLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12078">
-              <caret line="726" column="24" selection-start-line="726" selection-start-column="24" selection-end-line="726" selection-end-column="24" />
-              <folding>
-                <element signature="e#27298#27299#0" expanded="true" />
-                <element signature="e#27343#27344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22086">
-              <caret line="1282" column="22" selection-start-line="1282" selection-start-column="22" selection-end-line="1282" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3762">
-              <caret line="256" column="23" selection-start-line="256" selection-start-column="23" selection-end-line="256" selection-end-column="23" />
-              <folding>
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="e#17535#17536#0" expanded="true" />
-                <element signature="e#17577#17578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="520">
+              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/AddTwoNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthOfLongestSubstring.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LengthOfLongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LongestPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindMedianSortedArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/FindMedianSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -236,7 +73,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>checkout</find>
+      <find>findcla</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/leetcode</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -244,17 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/ReentrantLock5.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/ReentrantLock2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/ReentrantLock4.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/T17.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/T18.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/ThreadLocal1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/ThreadLocal2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/TicketSeller1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/TicketSeller2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/TicketSeller3.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MultiThread/TicketSeller4.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/T15.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/T19_ConcurrentMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/SynchronziedList.java" />
@@ -265,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/LinkedBlockingQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/T19_ArrayBlockingQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/T19_LinkedBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestList.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/ThreadState.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiThread/Singleton1.java" />
@@ -295,6 +127,18 @@
         <option value="$PROJECT_DIR$/src/test/java/leetcode/FindMedianSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/LengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/People.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/DecrptClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/EncrptUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classload/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/Convert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/MaxArea.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/ThreeSum.java" />
       </list>
     </option>
   </component>
@@ -320,6 +164,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,22 +197,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designMode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTrain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,6 +218,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/classload/temp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/temp" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="MultiThread" />
     </key>
@@ -401,25 +244,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoNumbers" />
-      <module name="test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThread.CAS" />
-      <module name="test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FindMedianSortedArrays" />
+  <component name="RunManager" selected="Application.ThreeSum">
+    <configuration name="Convert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Convert" />
       <module name="test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -429,8 +256,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LengthOfLongestSubstring" />
+    <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MaxArea" />
       <module name="test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -440,8 +267,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LongestPalindrome" />
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Reverse" />
+      <module name="test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classload.Test1" />
+      <module name="test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ThreeSum" />
       <module name="test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -493,21 +342,24 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CAS" />
-      <item itemvalue="Application.AddTwoNumbers" />
-      <item itemvalue="Application.LengthOfLongestSubstring" />
-      <item itemvalue="Application.FindMedianSortedArrays" />
-      <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Convert" />
+      <item itemvalue="Application.Reverse" />
+      <item itemvalue="Application.MaxArea" />
+      <item itemvalue="Application.ThreeSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LengthOfLongestSubstring" />
-        <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.FindMedianSortedArrays" />
-        <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.CAS" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.MaxArea" />
+        <item itemvalue="Application.Reverse" />
+        <item itemvalue="Application.Convert" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -554,39 +406,42 @@
       <workItem from="1563590442983" duration="1524000" />
       <workItem from="1563718458741" duration="12828000" />
       <workItem from="1563843837377" duration="12817000" />
-      <workItem from="1563928011222" duration="9839000" />
+      <workItem from="1563928011222" duration="30823000" />
+      <workItem from="1564102036748" duration="5749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137047000" />
+    <option name="totallyTimeSpent" value="163780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50214595" side_tool="true" weight="0.25454545" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5007153" side_tool="true" weight="0.17090909" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" sideWeight="0.37864077" side_tool="true" visible="true" weight="0.18454936" />
+      <window_info id="Structure" order="1" sideWeight="0.23662885" side_tool="true" weight="0.18669528" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.16242424" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.27636364" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32889965" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.2509091" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2521212" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.20727272" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" visible="true" weight="0.75030303" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6213592" visible="true" weight="0.18454936" />
-      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.25939393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76337117" visible="true" weight="0.18669528" />
+      <window_info id="JRebel" order="3" sideWeight="0.23662885" side_tool="true" visible="true" weight="0.18669528" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,7 +449,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,141 +514,35 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/classload/MyClassLoader.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/Reverse.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/MaxArea.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/ThreeSum.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2124">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10368">
-          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2898">
-          <caret line="194" column="30" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/T4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/T7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/T16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/T9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/T11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/designMode/DependencyPass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/designMode/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/TerminateSleep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/ThreadState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/TicketSeller1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/DeadLockResolve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -932,9 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,12 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3762">
           <caret line="256" column="23" selection-start-line="256" selection-start-column="23" selection-end-line="256" selection-end-column="23" />
-          <folding>
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,10 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12078">
           <caret line="726" column="24" selection-start-line="726" selection-start-column="24" selection-end-line="726" selection-end-column="24" />
-          <folding>
-            <element signature="e#27298#27299#0" expanded="true" />
-            <element signature="e#27343#27344#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,18 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MultiThread/ReentrantLock2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state>
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,10 +760,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/nio/CharBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="79" column="44" selection-start-line="60" selection-end-line="79" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload.java" />
+    <entry file="file://$PROJECT_DIR$/target/classes/org/html/removetag/RemoveTag.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/EncrptUtil.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/DecrptClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/EncrptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="38" column="111" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="500">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classload/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/com/sun/jmx/remote/util/ClassLoaderWithRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1339">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/MaxArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
