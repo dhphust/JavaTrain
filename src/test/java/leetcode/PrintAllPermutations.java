@@ -36,9 +36,9 @@ public class PrintAllPermutations {
         System.out.println(list);
     }
 
-    /**
-     * 打印字符串的所有子序列（回溯法）
-     */
+//    /**
+//     * 打印字符串的所有子序列（回溯法）
+//     */
 //    public class GenerateParenthesis {
 //        static List<String> list = new ArrayList<>();
 //        public static void backtrace(char[] str, int i, String res){

@@ -20,8 +20,12 @@ public class FindMinWalk {
         int right = walk(matrix,i,j+1);//向右走一步
         return matrix[i][j] + Math.min(down,right);
     }
+
     public static void main(String[] args) {
         int[][] res = {{1,3,5,9},{8,1,3,4},{5,0,6,1},{8,8,4,9}};
         System.out.println(walk(res,0,0));
+        int[] array = new int[(int) (6 * Math.random())];
+        System.out.println(array.length);
+
     }
 }

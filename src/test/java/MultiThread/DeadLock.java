@@ -1,5 +1,7 @@
 package MultiThread;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * 模拟死锁
  * 假设两个线程t1,t2，两个对象a1,a2
@@ -63,7 +65,6 @@ public class DeadLock implements Runnable {
         Thread thread2 = new Thread(deadLock2);
         thread1.start();
         thread2.start();
-
-
+        ReentrantLock
     }
 }
