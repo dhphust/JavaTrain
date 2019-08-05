@@ -35,12 +35,12 @@ public class Convert {
     public static void main(String[] args) {
         String str = "leetcodeishiring";
         System.out.println(convert(str,3));
-        int x = -123;
-        System.out.println(x % 10);
-        StringBuilder builder = new StringBuilder();
-        builder.append(4);
-        builder.append(5);
-        System.out.println(Integer.parseInt(builder.toString()));
+//        int x = -123;
+//        System.out.println(x % 10);
+//        StringBuilder builder = new StringBuilder();
+//        builder.append(4);
+//        builder.append(5);
+//        System.out.println(Integer.parseInt(builder.toString()));
 
     }
 }
