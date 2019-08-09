@@ -65,6 +65,5 @@ public class DeadLock implements Runnable {
         Thread thread2 = new Thread(deadLock2);
         thread1.start();
         thread2.start();
-        ReentrantLock
     }
 }
