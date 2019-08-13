@@ -1,15 +1,15 @@
 package offer66;
 //请实现一个函数，将一个字符串中的每个空格替换成“%20”。
 // 例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
-public class Second {
+public class A2 {
     public static String replaceSpace(StringBuffer str) {
         String Ostr = str.toString();
-        if(Ostr != null && Ostr.length()>=0){
+        if(Ostr != null && Ostr.length() >= 0){
             char[] Ochar = Ostr.toCharArray();  //将字符串转换为字符数组
             int count = getSpaceNum(Ostr);
             char[] Nchar = new char[Ochar.length+count*2];  //新建字符数组
-            int Oindex = Ostr.length()-1;
-            int Nindex = Nchar.length -1;
+            int Oindex = Ostr.length()-1;//旧字符串长度
+            int Nindex = Nchar.length -1; //新字符串长度
             //将Ochar数组里从索引为0的元素开始, 复制到数组Nchar里的索引为0的位置, 复制的元素个数为Ochar.length
             System.arraycopy(Ochar, 0, Nchar, 0, Ochar.length);
             while(Oindex >= 0 && Oindex != Nindex){

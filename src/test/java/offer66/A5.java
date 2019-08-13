@@ -2,7 +2,10 @@ package offer66;
 
 import java.util.Stack;
 
-public class Five {
+/**
+ * 两个栈实现一个队列
+ */
+public class A5 {
     Stack<Integer> stack1 = new Stack<>();
     Stack<Integer> stack2 = new Stack<>();
 
@@ -22,7 +25,7 @@ public class Five {
     }
 
     public static void main(String[] args) {
-        Five five = new Five();
+        A5 five = new A5();
         int[] nodeList = {1,2,3,4,5,6,34,12};
         //入队
         for (int i = 0; i < nodeList.length; i++) {

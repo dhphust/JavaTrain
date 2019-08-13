@@ -6,7 +6,7 @@ package offer66;
  */
 
 
-public class Eight {
+public class A8 {
     public static int JumpFloor(int target) {
         int one = 1;
         int two = 2;

@@ -5,7 +5,7 @@ package offer66;
 输入一个非减排序的数组的一个旋转，输出旋转数组的最小元素。例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
  NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 **/
- public class Six {
+ public class A6 {
     public static int minNumberInRotateArray(int [] array) {
         if(array.length <=0){
             return 0;
@@ -19,7 +19,7 @@ package offer66;
                 break;
             }
             mid = (j+i)/2;
-            if(array[i] == array[mid] && array[i] == array[j]){
+            if(array[i] == array[mid] && array[i] == array[j]){ //[1,0,1,1,1]
                 return MinInOrder(array,i,j);
             }else if(array[i] <= array[mid]){
                 i = mid;
@@ -41,7 +41,7 @@ package offer66;
 
 
     public static void main(String[] args) {
-        int[] array = {3, 4, 5, 5, 2,4,2,7,8,7};
+        int[] array = {3, 4, 5, 1, 2};
         int result = minNumberInRotateArray(array);
         System.out.println(result);
     }

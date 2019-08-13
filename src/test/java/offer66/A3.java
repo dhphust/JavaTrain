@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.ArrayList;
 //输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
-public class Third {
+public class A3 {
     private static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         Stack<Integer> stack = new Stack<>();
         while (listNode != null) {
@@ -20,7 +20,6 @@ public class Third {
     }
     private static ListNode buildListNode(int[] input){
         ListNode first = null,last = null,newNode;
-        int num;
         if(input.length>0){
             for(int i=0;i<input.length;i++){
                 newNode=new ListNode(input[i]);
@@ -47,9 +46,6 @@ public class Third {
         while(it1.hasNext()){
             System.out.println(it1.next());
         }
-
-
-
     }
 
 }
