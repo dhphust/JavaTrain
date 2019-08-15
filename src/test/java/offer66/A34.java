@@ -1,7 +1,12 @@
 package offer66;
 
-public class FirstNotRepeatingChar {
-    public static int firstNotRepeatingChar(String str) {
+/**
+ * 第一个只出现一次的字符
+ */
+public class A34 {
+    public static int FirstNotRepeatingChar(String str) {
+        if(str == null || str.length() == 0)
+            return -1;
         char[] list = str.toCharArray();
         int index = 0;
         for(int i=0;i<list.length;i++){
@@ -19,9 +24,8 @@ public class FirstNotRepeatingChar {
         }
         return index;
     }
-
     public static void main(String[] args) {
-        int result = firstNotRepeatingChar("goolgleda");
+        int result = FirstNotRepeatingChar("goolgleda");
         System.out.println(result);
     }
 }

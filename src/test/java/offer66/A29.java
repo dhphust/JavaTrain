@@ -2,7 +2,10 @@ package offer66;
 
 import java.util.ArrayList;
 
-public class TwentyNine {
+/**
+ * 最小的K个数
+ */
+public class A29 {
     public static ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
         ArrayList<Integer> al = new ArrayList<>();
         if (k > input.length) {

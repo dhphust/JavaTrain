@@ -1,25 +1,34 @@
 package offer66;
 
-import java.util.Scanner;
+import java.util.LinkedList;
 
 /**
- * 初始化二叉树
+ * 树的深度
+ * 层次遍历
  */
-public class A0 {
+public class A38 {
 
-    public static void solution(TreeNode root){
-        preOrderTraver(root);
-    }
-
-    //测试：先序遍历
-    public static void preOrderTraver(TreeNode node) {
-        if (null != node) {
-            System.out.println("node:" + node.val);
-            preOrderTraver(node.left);
-            preOrderTraver(node.right);
-        } else {
-            return;
+    public static int TreeDepth(TreeNode root) {
+        if(root == null)
+            return 0;
+        LinkedList<TreeNode> list = new LinkedList<TreeNode>();
+        list.add(root);
+        TreeNode currentNode;
+        int count = 0, depth = 0, nextcount = 1;
+        while(!list.isEmpty()){
+            currentNode = list.poll();
+            count++;
+            if(currentNode.left != null)
+                list.add(currentNode.left);
+            if(currentNode.right != null)
+                list.add(currentNode.right);
+            if(count == nextcount){
+                depth++;
+                count = 0;
+                nextcount = list.size();
+            }
         }
+        return depth;
     }
 
     static class TreeNode {
@@ -48,14 +57,8 @@ public class A0 {
     }
 
     public static void main(String[] args) {
-        int[] array = {2,3,5,6,7,5,3};
-//        Scanner input = new Scanner(System.in);
-//        int N = input.nextInt();//输入N个数
-//        int[] array = new int[N];
-//        for (int i = 0; i < N; i++) {
-//            array[i] = input.nextInt();
-//        }
+        int[] array = {1,2,3,4,5,6,7};
         TreeNode root = initTreeNode(array);
-        solution(root);
+        System.out.println(TreeDepth(root));
     }
 }
