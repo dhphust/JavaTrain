@@ -47,7 +47,7 @@ public class A36 {
     }
     private static ListNode buildListNode(int[] input){
         ListNode first = null,last = null,newNode;
-        if(input.length>0){
+        if(input.length>0 ){
             for(int i=0;i<input.length;i++){
                 newNode=new ListNode(input[i]);
                 newNode.next=null;

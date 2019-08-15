@@ -17,7 +17,7 @@ public class A39 {
             return true;
     }
     public static int TreeDepth(TreeNode node){
-        if(node == null || node.val == 0)//此处表示了空节点情况
+        if(node == null)
             return 0;
         int left = TreeDepth(node.left);
         int right = TreeDepth(node.right);
@@ -39,7 +39,7 @@ public class A39 {
     }
     private static TreeNode createBinaryTreeByArray(int[] array, int index) {
         TreeNode tn = null;
-        if (index < array.length) {
+        if (index < array.length && array[index] != 0) {
             int value = array[index];
             tn = new TreeNode(value);
             tn.left = createBinaryTreeByArray(array, 2 * index + 1);

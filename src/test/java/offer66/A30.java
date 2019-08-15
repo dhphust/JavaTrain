@@ -2,6 +2,7 @@ package offer66;
 
 /**
  * 连续子数组的最大和
+ * 滑动窗口
  */
 public class A30 {
 

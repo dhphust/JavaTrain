@@ -37,7 +37,7 @@ public class A0 {
     }
     private static TreeNode createBinaryTreeByArray(int[] array, int index) {
         TreeNode tn = null;
-        if (index < array.length) {
+        if (index < array.length && array[index] != 0) {
             int value = array[index];
             tn = new TreeNode(value);
             tn.left = createBinaryTreeByArray(array, 2 * index + 1);
@@ -48,7 +48,7 @@ public class A0 {
     }
 
     public static void main(String[] args) {
-        int[] array = {2,3,5,6,7,5,3};
+        int[] array = {2,3,0,5,6,0,0,7,5,3};//0表示空节点
 //        Scanner input = new Scanner(System.in);
 //        int N = input.nextInt();//输入N个数
 //        int[] array = new int[N];

@@ -40,7 +40,7 @@ public class A18 {
     }
     private static TreeNode createBinaryTreeByArray(int[] array, int index) {
         TreeNode tn = null;
-        if (index < array.length) {
+        if (index < array.length && array[index] != 0) {
             int value = array[index];
             tn = new TreeNode(value);
             tn.left = createBinaryTreeByArray(array, 2 * index + 1);
