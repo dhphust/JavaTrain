@@ -10,13 +10,13 @@ public class A56 {
         ListNode first = new ListNode(-1);//设置一个trick
         first.next = pHead;
         ListNode p = pHead;
-        ListNode last = first;
-        while (p != null && p.next != null) {
+        ListNode last = first;//记录重复节点的最后一个位置
+        while (p.next != null) {
             if (p.val == p.next.val) {
                 int val = p.val;
                 while (p!= null&&p.val == val)
                     p = p.next;
-                last.next = p;
+                last.next = p;//last指向重复节点的最后一个位置
             } else {
                 last = p;
                 p = p.next;

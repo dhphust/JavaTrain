@@ -35,13 +35,13 @@ public class A11 {
                 num1++;
             else if(result == 0)
                 num0++;
-            n >>= 1;
+            n >>= 1; //
         }
         System.out.println(num0+":"+num1);
     }
 
     public static void main(String[] args) {
-        int number = 8;
+        int number = 4;
         System.out.println(NumberOf1(number));
         System.out.println(Number2(number));
         Number3(number);

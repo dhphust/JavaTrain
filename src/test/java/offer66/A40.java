@@ -8,10 +8,10 @@ public class A40 {
     public static void FindNumsAppearOnce(int [] array) {
         if (array == null || array.length < 2)
             return;
-        int resultExclusiveNor = 0;
+        int result = 0;
         for (int item : array)
-            resultExclusiveNor ^= item;
-        int firstIndex = findFirstIndex(resultExclusiveNor);
+            result ^= item;
+        int firstIndex = findFirstIndex(result);
         int num1 =0;
         int num2 =0;
         for(int item:array){

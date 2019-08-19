@@ -1,5 +1,8 @@
 package generalAlgorithm;
-//插入排序：将元素插入到已经排好序的子数组中，插入的元素从后往前依次与已经排好序的子数组比较
+/**
+ * 直接插入排序：将元素插入到已经排好序的子数组中，
+ * 插入的元素从后往前依次与已经排好序的子数组比较
+ */
 public class InsertSort {
     public static int[] insertSort(int[] arry){
         if(arry == null || arry.length < 2)
@@ -8,15 +11,10 @@ public class InsertSort {
             for (int j = i; j > 0; j--) {
                 if(arry[j] < arry[j-1])
                     swap(arry,j,j-1);
-
-
             }
-            
         }
-
         return arry;
     }
-
     private static void swap(int[] arry, int j, int i) {
         int temp;
         temp = arry[i];
@@ -28,7 +26,7 @@ public class InsertSort {
         int[] arry = {3,5,2,1,5,7,1,4};
         int[] result = insertSort(arry);
         for (int i : result) {
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 }

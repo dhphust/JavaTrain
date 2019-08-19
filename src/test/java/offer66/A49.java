@@ -2,6 +2,10 @@ package offer66;
 
 /**
  * 字符串转整数
+ * //ascii范围
+ * 0～9:  48～57
+ * A~Z:  65~90
+ * a~z:  97~122
  */
 public class A49 {
 

@@ -55,11 +55,11 @@ public class QucikSort {
     }
 
 
-    private static void swap(int[] arry, int i, int i1) {
+    private static void swap(int[] array, int i, int j) {
         int temp;
-        temp = arry[i];
-        arry[i] = arry[i1];
-        arry[i1] = temp;
+        temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
     }
 
     // for test

@@ -4,8 +4,8 @@ package offer66;
  * 链表中倒数第K个节点
  */
 public class A14 {
-    public static ListNode1 FindKthToTail(ListNode1 head,int k) {
-        ListNode1 pre=null,p=null;
+    public static ListNode FindKthToTail(ListNode head,int k) {
+        ListNode pre=null,p=null;
         //两个指针都指向头结点
         p=head;
         pre=head;
@@ -28,11 +28,19 @@ public class A14 {
         return pre;
     }
 
-    private static ListNode1 buildListNode(int[] input){
-        ListNode1 first = null,last = null,newNode;
+    static class ListNode {
+        int val;
+        ListNode next = null;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
+    private static ListNode buildListNode(int[] input){
+        ListNode first = null,last = null,newNode;
         if(input.length>0){
             for(int i=0;i<input.length;i++){
-                newNode=new ListNode1(input[i]);
+                newNode=new ListNode(input[i]);
                 newNode.next=null;
                 if(first==null){
                     first=newNode;
@@ -50,16 +58,9 @@ public class A14 {
 
     public static void main(String[] args) {
         int[] input = {2,3,4,6,7,3};
-        ListNode1 node1 = buildListNode(input);
-        ListNode1 result = FindKthToTail(node1,3);
+        ListNode node1 = buildListNode(input);
+        ListNode result = FindKthToTail(node1,3);
         System.out.println(result.val);
     }
 }
-class ListNode1 {
-    int val;
-    ListNode1 next = null;
 
-    ListNode1(int val) {
-        this.val = val;
-    }
-}

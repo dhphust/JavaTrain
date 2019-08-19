@@ -14,7 +14,7 @@ public class A36 {
             pHead2 = walkStep(pHead2, len2-len1);
         }
         while(pHead1 != null){
-            if(pHead1 == pHead2)
+            if(pHead1.val == pHead2.val)
                 return pHead1;
             pHead1 = pHead1.next;
             pHead2 = pHead2.next;
@@ -66,11 +66,11 @@ public class A36 {
     }
     public static void main(String[] args) {
 
-//        int[] input1 = {2,3,4,6};
-//        ListNode node1 = buildListNode(input1);
-//        int[] input2 = {4,6};
-//        ListNode node2 = buildListNode(input2);
-//        ListNode result = FindFirstCommonNode(node1,node2);
-//        System.out.println(result);
+        int[] input1 = {2,3,23,45,4,6};
+        ListNode node1 = buildListNode(input1);
+        int[] input2 = {4,6};
+        ListNode node2 = buildListNode(input2);
+        ListNode result = FindFirstCommonNode(node1,node2);
+        System.out.println(result.val);
     }
 }

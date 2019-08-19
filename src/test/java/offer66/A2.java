@@ -42,7 +42,5 @@ public class A2 {
         String str = "We Are Happy";
         String result = replaceSpace(new StringBuffer(str));
         System.out.println(result);
-
-
     }
 }

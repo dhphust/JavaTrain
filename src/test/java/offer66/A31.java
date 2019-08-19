@@ -15,7 +15,6 @@ public class A31 {
                     count++;
                     System.out.println(n);
                 }
-
             }
             n--;
         }

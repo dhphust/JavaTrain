@@ -1,5 +1,7 @@
 package offer66;
 
+import java.util.Stack;
+
 /**
  * 正则表达式匹配
  */
@@ -31,5 +33,6 @@ public class A52 {
         String str = "aaa";
         String pattern = "a.a";
         System.out.println(match(str.toCharArray(),pattern.toCharArray()));
+
     }
 }

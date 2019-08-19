@@ -18,6 +18,14 @@ public class A3 {
         }
         return list;
     }
+    static class ListNode
+    {
+        int val;
+        ListNode next;
+        public ListNode(int x){
+            val=x;
+        }
+    }
     private static ListNode buildListNode(int[] input){
         ListNode first = null,last = null,newNode;
         if(input.length>0){
@@ -49,14 +57,4 @@ public class A3 {
     }
 
 }
-//自定义java的链表对象
-class ListNode
-{
-    int val;
-    ListNode next;
 
-    public ListNode(int x){
-        val=x;
-    }
-
-}

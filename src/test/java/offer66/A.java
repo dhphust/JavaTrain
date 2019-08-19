@@ -6,11 +6,17 @@ import java.util.Scanner;
  * 初始化链表
  */
 public class A {
-
     public static void solution(ListNode head){
         System.out.println(head.val);
     }
 
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+        }
+    }
     private static ListNode buildListNode(int[] input){
         ListNode first = null,last = null,newNode;
         if(input.length>0){
@@ -25,18 +31,9 @@ public class A {
                     last.next=newNode;
                     last=newNode;
                 }
-
             }
         }
         return first;
-    }
-    
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-        }
     }
 
     public static void main(String[] args) {

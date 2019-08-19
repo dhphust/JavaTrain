@@ -39,10 +39,24 @@ package offer66;
         return min;
     }
 
+    public static int solution(int [] array) {
+        int low = 0 ; int high = array.length - 1;
+        while(low < high){
+            int mid = low + (high - low) / 2;
+            if(array[mid] > array[high]){
+                low = mid + 1;
+            }else if(array[mid] == array[high]){
+                high = high - 1;
+            }else{
+                high = mid;
+            }
+        }
+        return array[low];
+    }
 
     public static void main(String[] args) {
         int[] array = {3, 4, 5, 1, 2};
-        int result = minNumberInRotateArray(array);
+        int result = solution(array);
         System.out.println(result);
     }
 }

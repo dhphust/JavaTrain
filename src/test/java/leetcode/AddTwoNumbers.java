@@ -63,8 +63,6 @@ public class AddTwoNumbers {
             System.out.println(result.val);
             result = result.next;
         }
-
-
     }
 
     public class ListNode {
