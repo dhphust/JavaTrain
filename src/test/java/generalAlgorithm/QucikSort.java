@@ -30,27 +30,38 @@ public class QucikSort {
      * @return 分割元素的下标值
      */
     private static int partition(int[] arr, int leftIndex, int rightIndex) {
+//        while(leftIndex < rightIndex){
+//            int key = leftIndex; //待比较值下标
+//         //   int value = arr[key];
+//            //先从后往前比较
+//            while(leftIndex < rightIndex && arr[rightIndex] > arr[leftIndex])
+//                rightIndex--;
+//            //遇到比key小的元素，交换
+//            if(leftIndex < rightIndex && arr[rightIndex] <= arr[leftIndex]){
+//                swap(arr,key,rightIndex);
+//                leftIndex++;
+//            }
+//          //从前往后比较
+//
+//            while(leftIndex < rightIndex && arr[leftIndex] < arr[rightIndex])
+//                leftIndex++;
+//            //遇到比key大的值，交换
+//            if(leftIndex < rightIndex && arr[leftIndex] > arr[rightIndex]){
+//                swap(arr,rightIndex,leftIndex);
+//                rightIndex--;
+//            }
+//        }
+//        return leftIndex;
+        int temp = arr[leftIndex];
         while(leftIndex < rightIndex){
-            int key = leftIndex; //待比较值下标
-         //   int value = arr[key];
-            //先从后往前比较
-            while(leftIndex < rightIndex && arr[rightIndex] > arr[leftIndex])
-                rightIndex--;
-            //遇到比key小的元素，交换
-            if(leftIndex < rightIndex && arr[rightIndex] <= arr[leftIndex]){
-                swap(arr,key,rightIndex);
-                leftIndex++;
-            }
-          //从前往后比较
-
-            while(leftIndex < rightIndex && arr[leftIndex] < arr[rightIndex])
-                leftIndex++;
-            //遇到比key大的值，交换
-            if(leftIndex < rightIndex && arr[leftIndex] > arr[rightIndex]){
-                swap(arr,rightIndex,leftIndex);
-                rightIndex--;
-            }
+            while(leftIndex < rightIndex && arr[rightIndex] > temp) rightIndex--;
+            if(leftIndex < rightIndex)
+                arr[leftIndex++] = arr[rightIndex];
+            while (leftIndex < rightIndex && arr[leftIndex] < temp) leftIndex++;
+            if(leftIndex < rightIndex)
+                arr[rightIndex--] = arr[leftIndex];
         }
+        arr[leftIndex] = temp;
         return leftIndex;
     }
 
@@ -75,7 +86,7 @@ public class QucikSort {
 
 
     public static void main(String[] args) {
-        int[] arr = {3,8,2,5,7,1,6,5,4};
+        int[] arr = {3,8,2,5,7,1,6,5,4,3};
         quickSort(arr);
     //    partition(arr,0,arr.length-1);
         printArray(arr);

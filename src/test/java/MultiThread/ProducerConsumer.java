@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * 除非有另外一个线程进行了出队操作，当一个线程对一个空的阻塞队列进行出队操作时也会阻塞，除非有另外一个线程进行了入队操作。
  */
 public class ProducerConsumer {
-    private static Integer count = 0;
+    private static int count = 0;
     //创建一个阻塞队列
     final BlockingQueue blockingQueue = new ArrayBlockingQueue<>(10);
     public static void main(String[] args) {
@@ -66,6 +66,7 @@ public class ProducerConsumer {
                     e.printStackTrace();
                 }
             }
+
 
         }
     }

@@ -23,15 +23,15 @@ public class HeapSort {
     //新的根顶元素与左右子树比较，确定新的根顶最大值元素
     private static void heapify(int[] array, int index, int size) {
         int left = index * 2 + 1;
-        int right = left + 1;
         while (left < size) {
+            int right = left + 1;
             int largest = right < size && array[right] > array[left] ? right : left;//确定左右子树中的最大值
             largest = array[largest] > array[index] ? largest : index;  //左右子树中的最大值与父节点比较
             if (largest == index) {
                 break;
             }
             swap(array, largest, index);
-            //到上一层继续比较
+            //下一层继续比较
             index = largest;
             left = index * 2 + 1;
         }

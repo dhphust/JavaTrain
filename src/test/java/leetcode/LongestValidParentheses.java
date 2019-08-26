@@ -53,5 +53,6 @@ public class LongestValidParentheses {
     public static void main(String[] args) {
         String s = ")()())";
         System.out.println(longestValidParentheses1(s));
+
     }
 }

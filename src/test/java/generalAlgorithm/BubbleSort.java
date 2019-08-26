@@ -18,6 +18,18 @@ public class BubbleSort {
         return arry;
     }
 
+    public  static int[] solution(int[] array){
+        if(array== null || array.length < 2)
+            return array;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length-i-1; j++) {
+                if(array[j] > array[j+1])
+                    swap(array,j,j+1);
+            }
+        }
+        return array;
+    }
+
     private static void swap(int[] arry, int i, int j) {
         int temp;
         temp = arry[i];
@@ -31,7 +43,10 @@ public class BubbleSort {
         for (int i : result) {
             System.out.print(i);
         }
-
+        System.out.println();
+        int[] result1 = solution(arry);
+        for(int res : result1)
+            System.out.println(res);
 
     }
 }

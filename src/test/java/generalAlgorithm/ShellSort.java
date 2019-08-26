@@ -20,6 +20,8 @@ public class ShellSort {
                     if(array[j] > array[j+d])
                         swap(array,j,j+d);
                 }
+//                if(array[i] > array[i+d])
+//                    swap(array,i,i+d);
             }
             d /= 2;//设置新的增量
         }
@@ -30,7 +32,7 @@ public class ShellSort {
         array[j] = temp;
     }
     public static void main(String[] args) {
-        int[] array = {3,4,52,1,3,5};
+        int[] array = {3,4,52,1,3,5,-6,3,2,8};
         shellSort(array);
         for(int result : array){
             System.out.print(result + " ");
