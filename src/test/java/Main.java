@@ -5,71 +5,19 @@ import leetcode.Reverse;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+import static generalAlgorithm.ShellSort.swap;
 import static java.util.Arrays.sort;
-
-//public class Main {
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        while (input.hasNext()){
-//            String ip1 = input.nextLine();
-//            String ip2 = input.nextLine();
-//            String mask = input.nextLine();
-//            if(ip1 == null || ip1.length() == 0 || ip2 == null || ip2.length() == 0 || mask == null || mask.length() == 0){
-//                System.out.println(1);
-//                break;
-//            }
-//            boolean flag = false;
-//            //取数字
-//            String sip1[] = ip1.split("\\.");
-//            String sip2[] = ip2.split("\\.");
-//            String smask[] = mask.split("\\.");
-//            StringBuilder result = new StringBuilder();
-//            //判断越界
-//            for (int i = 0; i < sip1.length; i++) {
-//                if(Integer.valueOf(sip1[i]) < 0 || Integer.valueOf(sip1[i]) > 255 || Integer.valueOf(sip2[i]) < 0 || Integer.valueOf(sip2[i]) > 255
-//                        || Integer.valueOf(smask[i]) < 0 || Integer.valueOf(smask[i]) > 255){
-//                    System.out.println(1);
-//                    break;
-//                }
-//            }
-//
-//            //按位与运算
-//            for (int i = 0; i < sip1.length; i++) {
-//                Integer result1 = Integer.valueOf(sip1[i]) & Integer.valueOf(smask[i]);
-//                Integer result2 = Integer.valueOf(sip2[i]) & Integer.valueOf(smask[i]);
-//                if(result1 == result2){
-//                    flag = true;
-//                }
-//                else {
-//
-//                    flag = false;
-//                    break;
-//                }
-//            }
-//            for (int i = 0; i < sip1.length; i++) {
-//                Integer result1 = Integer.valueOf(sip1[i]) & Integer.valueOf(smask[i]);
-//                result.append(result1).append(".");
-//            }
-//
-//            if(flag){
-//                System.out.println(0 + " " + result.substring(0,result.length()-1));
-//                break;
-//            }else {
-//                System.out.println(1 + " " + result.substring(0,result.length()-1));
-//                break;
-//            }
-//        }
-//
-//    }
-//}
 
 //求最大正方形面积转化为求最大边长
 //定义一个初始化最大边长maxLength=0
@@ -237,24 +185,56 @@ public class Main{
         return str1.substring(index,index+max);
     }
 
-    public static void main(String[] args) {
-        boolean result = isPalindrome(121);
-        System.out.println(result);
-        int[] array = {1,8,6,2,5,4,8,3,7};
-        System.out.println(solution1(array));
-        int num = 1994;
-        System.out.println(solution2(num));
-        String str = "abcde";
-        if(str.startsWith("ab"))
-            System.out.println("yes");
-        else
-            System.out.println("no");
-        int[] nums = {-1, 0, 1, 2, -1, -4};
-        System.out.println(threeSum(nums));
-        System.out.println(longestPalindrome("baabaad"));
-        System.out.println(solution3("sabdsbfa","qeqbdsbwe"));
+    //删除重复项
+
+    public static int remove1(int[] array){
+        int index = 0;
+        for (int i = 1; i < array.length; i++) {
+            if(array[i] != array[index]){
+                array[++index] = array[i];
+            }
+        }
+        return index;
     }
+    //移除指定元素
+    public static int removeElement(int[] nums, int val) {
+
+        int index = 0;
+        for(int i=0; i < nums.length; i++){
+            if(nums[i] != val){
+                nums[index++] = nums[i];
+            }
+        }
+        return index;
+    }
+
+
+    public static void main(String[] args) {
+//        boolean result = isPalindrome(121);
+//        System.out.println(result);
+//        int[] array = {1,8,6,2,5,4,8,3,7};
+//        System.out.println(solution1(array));
+//        int num = 1994;
+//        System.out.println(solution2(num));
+//        String str = "abcde";
+//        if(str.startsWith("ab"))
+//            System.out.println("yes");
+//        else
+//            System.out.println("no");
+//        int[] nums = {-1, 0, 1, 2, -1, -4};
+//        System.out.println(threeSum(nums));
+//        System.out.println(longestPalindrome("baabaad"));
+//        System.out.println(solution3("sabdsbfa","qeqbdsbwe"));
+//        int[] array = {0,0,1,1,1,2,2,3,3,4};
+//        System.out.println(remove1(array));
+//        for(int result : array)
+//            System.out.print(result + " ");
+
+        
+    }
+
 }
+
 
 
 

@@ -30,7 +30,8 @@ public class A12 {
         }
         return exponent >= 0 ? result:1/result;
     }
+
     public static void main(String[] args) {
-        System.out.println(Power(2,5));
+        System.out.println(Power(2.4,5));
     }
 }

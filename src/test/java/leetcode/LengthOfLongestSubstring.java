@@ -1,5 +1,6 @@
 package leetcode;
 
+import javax.rmi.CORBA.StubDelegate;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -25,25 +26,14 @@ public class LengthOfLongestSubstring {
             maxLength = Math.max(i-index+1,maxLength);//确定无重复区间长度
 
         }
+
+            System.out.println(s.substring(index-maxLength,index));
         return maxLength;
     }
-//    public static int lengthOfLongestSubstring(String s) {
-//        int n = s.length(), ans = 0;
-//        Map<Character, Integer> map = new HashMap<>(); // current index of character
-//        // try to extend the range [i, j]
-//        for (int j = 0, i = 0; j < n; j++) {
-//            if (map.containsKey(s.charAt(j))) {
-//                i = Math.max(map.get(s.charAt(j)), i);
-//            }
-//            ans = Math.max(ans, j - i + 1);
-//            map.put(s.charAt(j), j + 1);
-//        }
-//        return ans;
-//    }
 
     public static void main(String[] args) {
 
-        String test = "abba";
+        String test = "abbaqweassd";
         System.out.println(test.length());
         System.out.println(lengthOfLongestSubstring(test));
 

@@ -41,7 +41,7 @@ public class A11 {
     }
 
     public static void main(String[] args) {
-        int number = 4;
+        int number = 11;
         System.out.println(NumberOf1(number));
         System.out.println(Number2(number));
         Number3(number);
