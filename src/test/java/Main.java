@@ -2,15 +2,21 @@ import generics.Comparable;
 import generics.coffehouse.Cup;
 import leetcode.Reverse;
 
+import javax.swing.tree.TreeNode;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.SortedMap;
+import java.util.Stack;
+import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -208,6 +214,11 @@ public class Main{
         return index;
     }
 
+    public static void swap(char[] array, int i, int j){
+        char temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
 
     public static void main(String[] args) {
 //        boolean result = isPalindrome(121);
@@ -230,7 +241,7 @@ public class Main{
 //        for(int result : array)
 //            System.out.print(result + " ");
 
-        
+
     }
 
 }
