@@ -1,5 +1,5 @@
-import javax.print.attribute.standard.Sides;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 //循环链表的使用
@@ -97,7 +97,6 @@ public class Linkedlst {
         //删除尾节点
         lis.delTail();
         lis.print();
-
     }
 }
 
