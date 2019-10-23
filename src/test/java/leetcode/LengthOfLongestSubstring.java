@@ -31,11 +31,28 @@ public class LengthOfLongestSubstring {
         return maxLength;
     }
 
+    public static void solution(String str){
+        if(str == null || str.length() < 1)
+            return;
+        Map<Character,Integer> map = new HashMap<>();
+        char[] chars = str.toCharArray();
+        int index  = 0;//下一次扫描位置
+        int maxLength = 0;
+        for(int i = 0; i < chars.length; i++){
+            if(map.containsKey(chars[i])){
+                index = Math.max(map.get(chars[i])+1,index); //下一次位置
+            }
+            map.put(chars[i],i);
+            maxLength = Math.max(i-index+1,maxLength);
+        }
+        System.out.println(str.substring(index-maxLength,index));
+    }
+
     public static void main(String[] args) {
 
         String test = "abbaqweassd";
         System.out.println(test.length());
         System.out.println(lengthOfLongestSubstring(test));
-
+        solution(test);
     }
 }
