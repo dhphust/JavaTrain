@@ -15,7 +15,7 @@ public class Super {
 }
 
 final class Sub extends Super{
-    private final Instant instant;
+    private static Instant instant;
     public Sub() {//2
         instant = Instant.now();
     }
