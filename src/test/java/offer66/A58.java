@@ -24,7 +24,7 @@ public class A58 {
         Stack<TreeNode> s = new Stack<>();
         s.push(pRoot.left);
         s.push(pRoot.right);
-        while (!s.empty()) {
+        while (!s.isEmpty()) {
             TreeNode right = s.pop();//成对取出
             TreeNode left = s.pop();
             if (left == null && right == null) continue;
