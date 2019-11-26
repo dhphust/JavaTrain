@@ -14,7 +14,7 @@ public class A59 {
             return lists;
 
         Stack<TreeNode> stack1 = new Stack<>();//stack1保存奇数层节点
-        stack1.add(root);//将跟节点存入stsck1
+        stack1.push(root);//将跟节点存入stsck1
         Stack<TreeNode> stack2 = new Stack<>(); //stack2保存偶数层节点
         while (!stack1.isEmpty() || !stack2.isEmpty()){
             if(!stack1.isEmpty()){
@@ -23,9 +23,9 @@ public class A59 {
                     TreeNode temp = stack1.pop();
                     list.add(temp.val);
                     if(temp.left != null)//偶数层存入stack2
-                        stack2.add(temp.left);
+                        stack2.push(temp.left);
                     if(temp.right != null)
-                        stack2.add(temp.right);
+                        stack2.push(temp.right);
                 }
                 lists.add(list);//保存本层节点
             }
@@ -35,9 +35,9 @@ public class A59 {
                     TreeNode temp = stack2.pop();
                     list.add(temp.val);
                     if(temp.right != null)
-                        stack1.add(temp.right);
+                        stack1.push(temp.right);
                     if(temp.left != null)
-                        stack1.add(temp.left);
+                        stack1.push(temp.left);
                 }
                 lists.add(list);
             }

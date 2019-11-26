@@ -29,42 +29,61 @@ public class QucikSort {
      * @param rightIndex
      * @return 分割元素的下标值
      */
-    private static int partition(int[] arr, int leftIndex, int rightIndex) {
+//    private static int partition(int[] arr, int leftIndex, int rightIndex) {
+////        while(leftIndex < rightIndex){
+////            int key = leftIndex; //待比较值下标
+////         //   int value = arr[key];
+////            //先从后往前比较
+////            while(leftIndex < rightIndex && arr[rightIndex] > arr[leftIndex])
+////                rightIndex--;
+////            //遇到比key小的元素，交换
+////            if(leftIndex < rightIndex && arr[rightIndex] <= arr[leftIndex]){
+////                swap(arr,key,rightIndex);
+////                leftIndex++;
+////            }
+////          //从前往后比较
+////
+////            while(leftIndex < rightIndex && arr[leftIndex] < arr[rightIndex])
+////                leftIndex++;
+////            //遇到比key大的值，交换
+////            if(leftIndex < rightIndex && arr[leftIndex] > arr[rightIndex]){
+////                swap(arr,rightIndex,leftIndex);
+////                rightIndex--;
+////            }
+////        }
+////        return leftIndex;
+//        int temp = arr[leftIndex];
 //        while(leftIndex < rightIndex){
-//            int key = leftIndex; //待比较值下标
-//         //   int value = arr[key];
-//            //先从后往前比较
-//            while(leftIndex < rightIndex && arr[rightIndex] > arr[leftIndex])
-//                rightIndex--;
-//            //遇到比key小的元素，交换
-//            if(leftIndex < rightIndex && arr[rightIndex] <= arr[leftIndex]){
-//                swap(arr,key,rightIndex);
-//                leftIndex++;
-//            }
-//          //从前往后比较
-//
-//            while(leftIndex < rightIndex && arr[leftIndex] < arr[rightIndex])
-//                leftIndex++;
-//            //遇到比key大的值，交换
-//            if(leftIndex < rightIndex && arr[leftIndex] > arr[rightIndex]){
-//                swap(arr,rightIndex,leftIndex);
-//                rightIndex--;
-//            }
+//            while(leftIndex < rightIndex && arr[rightIndex] > temp) rightIndex--;
+//            if(leftIndex < rightIndex)
+//                arr[leftIndex++] = arr[rightIndex];
+//            while (leftIndex < rightIndex && arr[leftIndex] < temp) leftIndex++;
+//            if(leftIndex < rightIndex)
+//                arr[rightIndex--] = arr[leftIndex];
 //        }
+//        arr[leftIndex] = temp;
 //        return leftIndex;
-        int temp = arr[leftIndex];
-        while(leftIndex < rightIndex){
-            while(leftIndex < rightIndex && arr[rightIndex] > temp) rightIndex--;
-            if(leftIndex < rightIndex)
-                arr[leftIndex++] = arr[rightIndex];
-            while (leftIndex < rightIndex && arr[leftIndex] < temp) leftIndex++;
-            if(leftIndex < rightIndex)
-                arr[rightIndex--] = arr[leftIndex];
-        }
-        arr[leftIndex] = temp;
-        return leftIndex;
-    }
+//    }
 
+    public static int partition(int[] array,int left, int right){
+        int temp = array[left];
+        while(left < right){
+            //从右往左扫描
+            while(left < right && array[right] > temp)
+                right--;
+            if(left < right){
+                array[left++] = array[right];
+            }
+            //从左往右扫描
+            while(left < right && array[left] < temp)
+                left++;
+            if(left < right){
+                array[right--] = array[left];
+            }
+        }
+        array[left] = temp;
+        return left;
+    }
 
     private static void swap(int[] array, int i, int j) {
         int temp;
