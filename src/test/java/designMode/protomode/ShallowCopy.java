@@ -1,4 +1,4 @@
-package designMode.factory.protomode;
+package designMode.protomode;
 
 /**
  * 浅克隆

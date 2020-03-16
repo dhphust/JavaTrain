@@ -1,4 +1,4 @@
-package designMode.factory.protomode;
+package designMode.protomode;
 
 import java.io.IOException;
 
