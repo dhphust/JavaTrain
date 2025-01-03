@@ -1,6 +1,5 @@
 package MultiThread;
 
-import jdk.nashorn.internal.objects.NativeReferenceError;
 
 /**
  * 通过标志位中断线程
